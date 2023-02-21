@@ -14,3 +14,7 @@ const numbers = [12, 34, 56, 1, 34, 5, 6, 8, 25, 67, 89];
 
 const result = numbers.find(num => num % 5 === 0);
 console.log(result);
+
+const numbers2 = [1, 3, 5, 7, 9];
+const summary = numbers2.map(num => num + 1);
+console.log(summary);
